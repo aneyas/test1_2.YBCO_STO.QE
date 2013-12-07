@@ -1,0 +1,81 @@
+&CONTROL
+                       title = 'YBCO_STO_PBE_from_GBRV' ,
+                 calculation = 'vc-relax' ,
+                  wf_collect = .true. ,
+                      outdir = '../outdir/' ,
+                      wfcdir = '../temp/' ,
+                  pseudo_dir = '../pbe/' ,
+                      prefix = 'test_1_2' ,
+                     disk_io = 'default' ,
+                   verbosity = 'default' ,
+                      iprint = 10 ,
+               etot_conv_thr = 1.0d-6 ,
+               forc_conv_thr = 1.0d-6 ,
+                       nstep = 100 ,
+                     tstress = .false. ,
+                     tprnfor = .false. ,
+ /
+ &SYSTEM
+                       ibrav = 8,
+                           A = 3.944 ,
+                           B = 3.944 ,
+                           C = 25.574309 ,
+                       cosAB = 0 ,
+                       cosAC = 0 ,
+                       cosBC = 0 ,
+                         nat = 21,
+                        ntyp = 6,
+                     ecutwfc = 40 ,
+                     ecutrho = 200 ,
+		     nbnd = 105 ,
+		     occupations = 'smearing' ,
+		     degauss = 0.01 ,
+ /
+ &ELECTRONS
+            electron_maxstep = 400,
+             diagonalization = 'david' ,
+	     mixing_beta = 0.15 ,
+	     mixing_mode = 'local-TF' ,
+	     mixing_ndim = 8 ,
+	     conv_thr = 5e-6 ,
+ /
+ &IONS
+                ion_dynamics = 'damp' ,
+               ion_positions = 'default' ,
+ /
+ &CELL
+               cell_dynamics = 'damp-pr' ,
+                 cell_factor = 1.5 ,
+                 cell_dofree = 'z' ,
+ /
+ATOMIC_SPECIES
+   Ba  137.32700  ba_pbe_v1.uspp.F.UPF 
+    Y   88.90585  y_pbe_v1.uspp.F.UPF 
+   Cu   63.54600  cu_pbe_v1.uspp.F.UPF 
+    O   15.99940  o_pbe_v1.01.uspp.F.UPF 
+   Sr   87.62000  sr_pbe_v1.uspp.F.UPF 
+   Ti   47.88000  ti_pbe_v1.uspp.F.UPF 
+ATOMIC_POSITIONS crystal 
+   Ba      0.500000000    0.500000000    0.237439244    0   0  1 
+   Ba      0.500000000    0.500000000    0.525760243    0   0  1
+    Y      0.500000000    0.500000000    0.381599722    0   0  1
+   Cu      0.000000000    0.000000000    0.608982593    0   0  1
+   Cu      0.000000000    0.000000000    0.315340498    0   0  1
+   Cu      0.000000000    0.000000000    0.447858989    0   0  1
+    O      0.000000000    0.000000000    0.226615869    0   0  1
+    O      0.000000000    0.000000000    0.536583673    0   0  1
+    O      0.000000000    0.000000000    0.077108639    0   0  1
+    O      0.500000000    0.000000000    0.325390818    0   0  1
+    O      0.500000000    0.000000000    0.437808706    0   0  1
+    O      0.500000000    0.000000000    0.000000000    0   0  1
+    O      0.500000000    0.000000000    0.154217278    0   0  1
+    O      0.000000000    0.500000000    0.000000000    0   0  1
+    O      0.000000000    0.500000000    0.154217278    0   0  1
+    O      0.000000000    0.500000000    0.325800115    0   0  1
+    O      0.000000000    0.500000000    0.437399409    0   0  1
+    O      0.000000000    0.500000000    0.608982593    0   0  1
+   Sr      0.500000000    0.500000000    0.077108639    0   0  1
+   Ti      0.000000000    0.000000000    0.000000000    0   0  1
+   Ti      0.000000000    0.000000000    0.154217278    0   0  1
+K_POINTS {automatic}
+  6 6 2   1 1 1 
