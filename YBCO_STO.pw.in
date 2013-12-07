@@ -37,7 +37,7 @@
 	     mixing_beta = 0.15 ,
 	     mixing_mode = 'local-TF' ,
 	     mixing_ndim = 8 ,
-	     conv_thr = 5e-6 ,
+	     conv_thr = 2e-5 ,
  /
  &IONS
                 ion_dynamics = 'damp' ,
