@@ -1,6 +1,6 @@
 &CONTROL
                        title = 'YBCO_STO_PBE_from_GBRV' ,
-		       restart_mode = 'restart' ,
+		       restart_mode = 'from_scatch' ,
                  calculation = 'vc-relax' ,
                   wf_collect = .true. ,
                       outdir = '../outdir/' ,
