@@ -1,11 +1,3 @@
-Thu Dec  5 14:15:07 CST 2013
+Fri Dec 13 18:54:40 CST 2013
 
-The difficulty of this calculation is the convergence of the SCF loop.
-I have done a few things to solve this problem:
-	- Reduce te mixing_beta to 0.05
-	- Change mixing_mode to 'local-TF'
-	- Increase the mixing_ndim to 16.
-	- Increase the number of nbnd by 8.
-
-Things to be done:
-	increase ecutrho etc.
+- This is for computing STO's lattice parameter.
