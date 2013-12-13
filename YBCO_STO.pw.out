@@ -1,5 +1,5 @@
 
-     Program PWSCF v.5.0.2 (svn rev. 9656) starts on 13Dec2013 at 17:34:44 
+     Program PWSCF v.5.0.2 (svn rev. 9656) starts on 13Dec2013 at 18:58:36 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -18,60 +18,60 @@
      Max number of k-points (npk) =  40000
      Max angular momentum in pseudopotentials (lmaxx) =  3
      Reading input from YBCO_STO.pw.in
-Warning: card CU    0.000000    0.000000   19.488379 ignored
-Warning: card CU    0.000000    0.000000   31.330379 ignored
-Warning: card CU    0.000000    0.000000   43.172379 ignored
-Warning: card CU    0.000000    0.000000   55.014378 ignored
-Warning: card  O    0.000000    0.000000   25.569246 ignored
-Warning: card  O    0.000000    0.000000   37.411247 ignored
-Warning: card  O    0.000000    0.000000   49.253250 ignored
-Warning: card  O    0.000000    0.000000   61.095249 ignored
-Warning: card  O    0.000000    0.000000   21.798754 ignored
-Warning: card  O    0.000000    0.000000   33.640755 ignored
-Warning: card  O    0.000000    0.000000   45.482754 ignored
-Warning: card  O    0.000000    0.000000   57.324753 ignored
-Warning: card  O    1.972000    0.000000   16.299328 ignored
-Warning: card  O    1.972000    0.000000   28.141329 ignored
-Warning: card  O    1.972000    0.000000   39.983330 ignored
-Warning: card  O    1.972000    0.000000   51.825329 ignored
-Warning: card  O    1.972000    0.000000   63.667328 ignored
-Warning: card  O    1.972000    0.000000   19.226671 ignored
-Warning: card  O    1.972000    0.000000   31.068672 ignored
-Warning: card  O    1.972000    0.000000   42.910671 ignored
-Warning: card  O    1.972000    0.000000   54.752670 ignored
-Warning: card  O    0.000000    1.972000   16.309986 ignored
-Warning: card  O    0.000000    1.972000   28.151987 ignored
-Warning: card  O    0.000000    1.972000   39.993988 ignored
-Warning: card  O    0.000000    1.972000   51.835983 ignored
-Warning: card  O    0.000000    1.972000   63.677982 ignored
-Warning: card  O    0.000000    1.972000   19.216013 ignored
-Warning: card  O    0.000000    1.972000   31.058014 ignored
-Warning: card  O    0.000000    1.972000   42.900013 ignored
-Warning: card  O    0.000000    1.972000   54.742012 ignored
-Warning: card  O    0.000000    1.972000   23.684000 ignored
-Warning: card  O    0.000000    1.972000   35.526001 ignored
-Warning: card  O    0.000000    1.972000   47.368000 ignored
-Warning: card  O    0.000000    1.972000   59.209999 ignored
-Warning: card SR    1.972000    1.972000    1.972000 ignored
-Warning: card SR    1.972000    1.972000    5.916000 ignored
-Warning: card SR    1.972000    1.972000    9.860000 ignored
-Warning: card SR    1.972000    1.972000   13.804000 ignored
-Warning: card TI    0.000000    0.000000    0.000000 ignored
-Warning: card TI    0.000000    0.000000    3.944000 ignored
-Warning: card TI    0.000000    0.000000    7.888000 ignored
-Warning: card TI    0.000000    0.000000   11.832000 ignored
-Warning: card  O    1.972000    0.000000    0.000000 ignored
-Warning: card  O    1.972000    0.000000    3.944000 ignored
-Warning: card  O    1.972000    0.000000    7.888000 ignored
-Warning: card  O    1.972000    0.000000   11.832000 ignored
-Warning: card  O    0.000000    1.972000    0.000000 ignored
-Warning: card  O    0.000000    1.972000    3.944000 ignored
-Warning: card  O    0.000000    1.972000    7.888000 ignored
-Warning: card  O    0.000000    1.972000   11.832000 ignored
-Warning: card  O    0.000000    0.000000    1.972000 ignored
-Warning: card  O    0.000000    0.000000    5.916000 ignored
-Warning: card  O    0.000000    0.000000    9.860000 ignored
-Warning: card  O    0.000000    0.000000   13.804000 ignored
+Warning: card CU    0.000000    0.000000   19.488379 0 0 1 ignored
+Warning: card CU    0.000000    0.000000   31.330379 0 0 1 ignored
+Warning: card CU    0.000000    0.000000   43.172379 0 0 1 ignored
+Warning: card CU    0.000000    0.000000   55.014378 0 0 1 ignored
+Warning: card  O    0.000000    0.000000   25.569246 0 0 1 ignored
+Warning: card  O    0.000000    0.000000   37.411247 0 0 1 ignored
+Warning: card  O    0.000000    0.000000   49.253250 0 0 1 ignored
+Warning: card  O    0.000000    0.000000   61.095249 0 0 1 ignored
+Warning: card  O    0.000000    0.000000   21.798754 0 0 1 ignored
+Warning: card  O    0.000000    0.000000   33.640755 0 0 1 ignored
+Warning: card  O    0.000000    0.000000   45.482754 0 0 1 ignored
+Warning: card  O    0.000000    0.000000   57.324753 0 0 1 ignored
+Warning: card  O    1.972000    0.000000   16.299328 0 0 1 ignored
+Warning: card  O    1.972000    0.000000   28.141329 0 0 1 ignored
+Warning: card  O    1.972000    0.000000   39.983330 0 0 1 ignored
+Warning: card  O    1.972000    0.000000   51.825329 0 0 1 ignored
+Warning: card  O    1.972000    0.000000   63.667328 0 0 1 ignored
+Warning: card  O    1.972000    0.000000   19.226671 0 0 1 ignored
+Warning: card  O    1.972000    0.000000   31.068672 0 0 1 ignored
+Warning: card  O    1.972000    0.000000   42.910671 0 0 1 ignored
+Warning: card  O    1.972000    0.000000   54.752670 0 0 1 ignored
+Warning: card  O    0.000000    1.972000   16.309986 0 0 1 ignored
+Warning: card  O    0.000000    1.972000   28.151987 0 0 1 ignored
+Warning: card  O    0.000000    1.972000   39.993988 0 0 1 ignored
+Warning: card  O    0.000000    1.972000   51.835983 0 0 1 ignored
+Warning: card  O    0.000000    1.972000   63.677982 0 0 1 ignored
+Warning: card  O    0.000000    1.972000   19.216013 0 0 1 ignored
+Warning: card  O    0.000000    1.972000   31.058014 0 0 1 ignored
+Warning: card  O    0.000000    1.972000   42.900013 0 0 1 ignored
+Warning: card  O    0.000000    1.972000   54.742012 0 0 1 ignored
+Warning: card  O    0.000000    1.972000   23.684000 0 0 1 ignored
+Warning: card  O    0.000000    1.972000   35.526001 0 0 1 ignored
+Warning: card  O    0.000000    1.972000   47.368000 0 0 1 ignored
+Warning: card  O    0.000000    1.972000   59.209999 0 0 1 ignored
+Warning: card SR    1.972000    1.972000    1.972000 0 0 1 ignored
+Warning: card SR    1.972000    1.972000    5.916000 0 0 1 ignored
+Warning: card SR    1.972000    1.972000    9.860000 0 0 1 ignored
+Warning: card SR    1.972000    1.972000   13.804000 0 0 1 ignored
+Warning: card TI    0.000000    0.000000    0.000000 0 0 1 ignored
+Warning: card TI    0.000000    0.000000    3.944000 0 0 1 ignored
+Warning: card TI    0.000000    0.000000    7.888000 0 0 1 ignored
+Warning: card TI    0.000000    0.000000   11.832000 0 0 1 ignored
+Warning: card  O    1.972000    0.000000    0.000000 0 0 1 ignored
+Warning: card  O    1.972000    0.000000    3.944000 0 0 1 ignored
+Warning: card  O    1.972000    0.000000    7.888000 0 0 1 ignored
+Warning: card  O    1.972000    0.000000   11.832000 0 0 1 ignored
+Warning: card  O    0.000000    1.972000    0.000000 0 0 1 ignored
+Warning: card  O    0.000000    1.972000    3.944000 0 0 1 ignored
+Warning: card  O    0.000000    1.972000    7.888000 0 0 1 ignored
+Warning: card  O    0.000000    1.972000   11.832000 0 0 1 ignored
+Warning: card  O    0.000000    0.000000    1.972000 0 0 1 ignored
+Warning: card  O    0.000000    0.000000    5.916000 0 0 1 ignored
+Warning: card  O    0.000000    0.000000    9.860000 0 0 1 ignored
+Warning: card  O    0.000000    0.000000   13.804000 0 0 1 ignored
 
      Subspace diagonalization in iterative solution of the eigenvalue problem:
      a serial algorithm will be used
@@ -275,22 +275,3 @@ Warning: card  O    0.000000    0.000000   13.804000 ignored
         Each <psi_i|beta_j> matrix      1.18 Mb     (    434,  178)
         Arrays for rho mixing         106.79 Mb     ( 874800,   8)
      writing wfc files to a dedicated directory
-
-     Check: negative/imaginary core charge=   -0.000009    0.000000
-
-     Initial potential from superposition of free atoms
-     Check: negative starting charge=   -0.935242
-
-     starting charge  285.86211, renormalised to  295.00000
-
-     negative rho (up, down):  0.965E+00 0.000E+00
-     Starting wfc are  273 randomized atomic wfcs
-
-     total cpu time spent up to now is      264.1 secs
-
-     per-process dynamical memory:   988.3 Mb
-
-     Self-consistent Calculation
-
-     iteration #  1     ecut=    40.00 Ry     beta=0.15
-     Davidson diagonalization with overlap
