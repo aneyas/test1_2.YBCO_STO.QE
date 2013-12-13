@@ -28,7 +28,7 @@
                         ntyp = 6,
                      ecutwfc = 40 ,
                      ecutrho = 200 ,
-		     nbnd = 105 ,
+		     !nbnd = 105 ,
 		     occupations = 'smearing' ,
 		     degauss = 0.01 ,
  /
