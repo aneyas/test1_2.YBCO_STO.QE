@@ -17,15 +17,11 @@
                      tprnfor = .false. ,
  /
  &SYSTEM
-                       ibrav = 8,
+                       ibrav = 1,
                            A = 3.944 ,
-                           B = 3.944 ,
-                           C = 78.144 , !63.144 + 15
                        cosAB = 0 ,
-                       cosAC = 0 ,
-                       cosBC = 0 ,
-                         nat = 21,
-                        ntyp = 6,
+                         nat = 5,
+                        ntyp = 3,
                      ecutwfc = 40 ,
                      ecutrho = 200 ,
 		     !nbnd = 105 ,
