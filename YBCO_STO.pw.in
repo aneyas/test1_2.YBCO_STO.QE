@@ -24,7 +24,7 @@
                        cosAB = 0 ,
                        cosAC = 0 ,
                        cosBC = 0 ,
-                         nat = 21,
+                         nat = 75,
                         ntyp = 6,
                      ecutwfc = 40 ,
                      ecutrho = 200 ,
