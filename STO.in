@@ -6,7 +6,7 @@
                       outdir = '../outdir/' ,
                       wfcdir = '../temp/' ,
                   pseudo_dir = '../pbe/' ,
-                      prefix = 'test_1_2' ,
+                      prefix = 'STO_lattice_constant' ,
                      disk_io = 'default' ,
                    verbosity = 'default' ,
                       iprint = 10 ,
