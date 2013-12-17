@@ -12,7 +12,7 @@
                       iprint = 10 ,
                etot_conv_thr = 1.0d-6 ,
                forc_conv_thr = 1.0d-6 ,
-                       nstep = 100 ,
+                       nstep = 400 ,
                      tstress = .false. ,
                      tprnfor = .false. ,
  /
