@@ -1,6 +1,6 @@
 #!/bin/bash
 
-npool=2
+npool=4
 nimage=1
 np=`echo "$npool*$nimage" | bc`
 
