@@ -1,0 +1,10 @@
+#Record Sr, O, and Ti's positions to check how the polizations go.
+#The x,y postions of Sr are (0.5,0.5), the Ti and O atoms (0.0,0.0).
+#The order of the atoms are from the very bottom, going upward.
+#layer Sr_init Ti_init O_init(below_Ti) O_init(above_Ti); Sr_last Ti_last O_last(below_Ti)   O_last(above_Ti) 
+1 0.025280  0.050560  0.025280 0.075839 0.024885 0.051196 0.024592 0.075216
+2 0.075839  0.101119  0.075839 0.126399 0.075930 0.101700 0.075216 0.125801
+3 0.126399  0.151679  0.126399 0.176958 0.126516 0.152243 0.125801 0.176350
+4 0.176958  0.202238  0.176958 0.226248 0.177083 0.201433 0.176350 0.227431
+
+#Note the change in Sr is quite small, but seems changes in Ti also small.

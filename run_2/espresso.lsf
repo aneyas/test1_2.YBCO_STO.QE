@@ -1,0 +1,31 @@
+#!/bin/sh
+#
+# set the needed environment variables
+#
+MY_MPI_TYPE=openmpi
+MY_MPI_HOME=$HOME
+APP_NAME="snode"
+NP=64
+#NP_PER_NODE=1
+RUN="RAW"
+
+CURDIR=$PWD
+#start creating .nodelist
+rm -rf $CURDIR/.nodelist >& /dev/null
+for i in `echo $LSB_HOSTS`
+do
+echo $i >> $CURDIR/.nodelist
+done
+#nodelist done
+
+EXEDIR=/home/users/xjtuwdw/SSC/espresso-4.3.2/bin
+
+export MPI_HOME=/home/compiler/mpi/mvapich/1.0/gcc.pgf90
+export PATH=${MPI_HOME}/bin:$PATH
+export MANPATH=${MPI_HOME}/man:$MANPATH
+export LD_LIBRARY_PATH=${MPI_HOME}/lib:${MPI_HOME}/lib/shared:${LD_LIBRARY_PATH}\
+:/home/compiler/intel/9.1/lib
+
+
+#$MPI_HOME/bin/mpirun -np $NP -machinefile $CURDIR/.nodelist $EXEDIR/pw.x < mgo.scf.in > mgo.scf.out
+mpirun -np $NP -machinefile $CURDIR/.nodelist $EXEDIR/pw.x -npool 4 -ndiag 16 $NP -input YBCO_STO.pw.in >& YBCO_STO.pw.out

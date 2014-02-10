@@ -1,0 +1,302 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass revtex4
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+YBCO on STO
+\end_layout
+
+\begin_layout Section
+The structure
+\end_layout
+
+\begin_layout Standard
+The initial structure before relax is given in Fig.
+ 1
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename init.pdf
+	width 12cm
+	groupId standard
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+The atoms in the structure.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+The convergence
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename energy_evolution.eps
+	width 12cm
+	groupId standard
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+The convergence is shown as the total energy decreases with iterations.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The result is not totally converged, due to some unknown error (file write
+ error in SSC).
+ I will use the last one to check how the atom positions had shifted.
+\end_layout
+
+\begin_layout Section
+The changes
+\end_layout
+
+\begin_layout Standard
+The lattice constant along 
+\begin_inset Formula $z$
+\end_inset
+
+ has changed from 
+\begin_inset Formula $77.1169722464$
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AA
+\end_layout
+
+\end_inset
+
+ to 
+\begin_inset Formula $77.1169983246$
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AA
+\end_layout
+
+\end_inset
+
+ (this number is necessary to see how the atoms had moved; note they are
+ quite close).
+ 
+\end_layout
+
+\begin_layout Subsection
+The SrTiO
+\begin_inset Formula $_{3}$
+\end_inset
+
+ layers
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename O-Ti_distance.eps
+	width 12cm
+	groupId standard
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+The Ti-O distance, measured in at the x,y positions of 
+\begin_inset Formula $\left(0.0,0.0\right)$
+\end_inset
+
+.
+ The green line circles are before relaxation.
+ The notation Ti>O means the distance for the Ti above the O atom.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Figure 3 shows the O-Ti distance layer by layer.
+ The bottom three layers have almost identical atom shifts -- a polarization
+ pointing upward; however the 4th layer (closest to the Ba-O layer) has
+ the opposite behavior, which may be because the Ba-O layer at the interface
+ (or maybe the computation is not entirely converged)?
+\end_layout
+
+\begin_layout Subsection
+The lattice constant measured in O-O distance
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename lattice_constant_in_O-O_distance.eps
+	width 12cm
+	groupId standard
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+The lattice constant along z as measured from the distance between O atoms.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 4 shows the lattice constant variation with respect to layers.
+ 
+\end_layout
+
+\end_body
+\end_document
